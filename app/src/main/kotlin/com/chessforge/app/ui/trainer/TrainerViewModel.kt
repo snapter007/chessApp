@@ -57,7 +57,7 @@ class TrainerViewModel(
         continueAutoPlayIfNeeded()
     }
 
-    fun setHintLevel(level: HintLevel) {
+    fun selectHintLevel(level: HintLevel) {
         hintLevel = level
         hintRevealedThisStep = false
         refresh()

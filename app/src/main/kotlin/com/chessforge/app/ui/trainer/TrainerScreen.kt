@@ -104,7 +104,7 @@ fun TrainerScreen(
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        HintLevelSelector(current = viewModel.hintLevel, onSelect = viewModel::setHintLevel)
+        HintLevelSelector(current = viewModel.hintLevel, onSelect = viewModel::selectHintLevel)
 
         Spacer(modifier = Modifier.height(12.dp))
 
